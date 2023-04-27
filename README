@@ -2,14 +2,50 @@ Hello World on the 26/04/2023
 I am a member of the Domoticz Home Automation Community
 Please find this modest contribution as a guide to numerous encountered issues.
 
-Running on Raspberry Pi
-Bullseye Linux raspberrypi2 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
-Domoticz Version: 2023.1
-Build Hash: f9b9ac774
-Compile Date: 2023-02-14 15:06:40
-dzVents Version: 3.1.8
-Python Version: 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
-
 Attached is the guide along with bash and DzVents script.
 I hope this will be of use to others.
 Thanks to the Domoticz team who keep this project moving forward!
+
+Table Of contents
+
+Topic                                         Page
+Introduction                                  3
+Platform Choice                               4
+RPI Domoticz Server                           4
+RPI2 Sandbox                                  4
+LINUX                                         8
+Image Burning                                 11
+USB Booting                                   13
+Raspberry Pi 4B                               13
+Raspberry Pi 3B+                              14
+Docker Installation                           15
+Install Docker                                15
+MQTT Installation                             17
+Wiki Documentation Links                      19
+Domoticz Configuration                        19
+Install Mosquitto                             19
+Install Zwave-JS                              19
+Install Zwave-JS-UI                           19
+Zwave-JS-UI/Domoticz Configuration            21
+Domoticz MQTT Gateways                        23
+New Devices from Zwave-JS-UI                  24
+Zwave-JS-UI Control Panel Page 1              25
+Zwave-JS-UI Control Panel Page 2              25
+Zwave-JS-UI Provisioning Entities             26
+Zwave-JS-UI Settings                          27
+Zwave-JS-UI Debug                             31
+Zwave-JS-UI Store                             31
+Zwave-JS-UI Network                           32
+Zwave-JS-UI Debug Errors with localhost IP    33
+Remote Access                                 34
+VNC                                           34
+DuckDNS                                       34
+NAT Router set-up                             36
+Certificate with snapd & certbot              36
+Scripts                                       37
+mdown.sh                                      37
+updom.sh                                      37
+rpidia.sh                                     38
+inadyn.sh                                     38
+smeagol.sh                                    38
+Glossary                                      39
